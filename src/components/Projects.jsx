@@ -6,6 +6,7 @@ import bmi from "../assets/bmi.png"
 import wether from "../assets/weather.png"
 import mycalt from "../assets/cal.png"
 import myhotel from "../assets/hotel.png"
+import project from "../assets/project.png"
 
 const Projects = () => {
   return (
@@ -98,7 +99,7 @@ const Projects = () => {
       {/* Hover Content */}
       <div className=" h-60 absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300">
         <div className="text-center text-white px-4">
-          <h5 className="text-xl font-bold mb-2">Recipe Listing App</h5>
+          <h5 className="text-xl font-bold mb-2">Parallax</h5>
           <p className="text-sm">Designed and developed a React website featuring stunning parallax scrolling effects and an interactive image slider.</p>
           <div className="flex justify-center space-x-4 mt-4">
             <a
@@ -225,31 +226,31 @@ const Projects = () => {
       </div>
     </div>
   </div>
- {/* Project Card */}
- <div className="w-full max-w-xs h-60 bg-white rounded-lg border border-gray-200 shadow-md group mt-8">
+   {/* Project Card */}
+   <div className="max-w-xs w-full h-60 bg-white rounded-lg border border-gray-200 shadow-md group mt-8">
     <div className="relative">
       {/* Image */}
       <img
-        src={myhotel}
+        src={project}
         alt="Card Image"
-        className="rounded-t-lg w-full h-full object-cover group-hover:opacity-70 transition duration-300"
+        className="rounded-t-lg w-full h-40 object-cover group-hover:opacity-70 transition duration-300"
       />
       {/* Hover Content */}
-      <div className="h-60 absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300">
+      <div className=" h-60 absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300">
         <div className="text-center text-white px-4">
-          <h5 className="text-xl font-bold mb-2">Hotel booking </h5>
-          <p className="text-sm">Developed a hotel booking platform using the MERN stack  with a focus on user functionalities.</p>
-          <div className="flex justify-center space-x-4">
+          <h5 className="text-xl font-bold mb-2">Project Fair</h5>
+          <p className="text-sm"> Full-stack app for managing projects—add, edit, and delete projects with dynamic listings and real-time updates.</p>
+          <div className="flex justify-center space-x-4 mt-4">
             <a
-              href="https://github.com/harshanh3/Fronend-HotelBooking"
+              href="harshanh3/project-fair"
               className="text-gray-950 hover:text-blue-400"
               aria-label="GitHub Repository"
             >
               <i className="fa-brands fa-github text-2xl"></i>
             </a>
             <a
-              href="https://live-link-to-your-app"
-              className="text-gray-600 hover:text-black"
+              href=" jolly-alpaca-3f06ef.netlify.app"
+              className="text-gray-950 hover:text-blue-400"
               aria-label="Live Demo"
             >
               <i className="fa-solid fa-link text-2xl"></i>
@@ -259,19 +260,10 @@ const Projects = () => {
       </div>
     </div>
   </div>
-
-</div>
-
-
-
-
+  </div>
 
       </div>
-
     </section >
-
-
-
 
     </>
   )

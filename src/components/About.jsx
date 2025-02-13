@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from "../assets/hp1.pdf"
+import cv from "../assets/hp2.pdf"
 
 const About = () => {
     return (
